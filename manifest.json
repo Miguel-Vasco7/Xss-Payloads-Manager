@@ -2,6 +2,8 @@
   "manifest_version": 3,
   "name": "N4M1K4Z1 PAYLOADS",
   "version": "1.0",
+  "description": "Ferramenta avançada para injeção de payloads XSS e testes de segurança em aplicações web.",
+  "author": "Miguel Vasco",
   "action": {
     "default_popup": "popup.html",
     "default_icon": "BH.png"
