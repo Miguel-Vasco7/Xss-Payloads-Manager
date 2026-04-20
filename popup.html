@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>XSS Payload Manager</title>
+  <style>
+    body { font-family: sans-serif; background: #111; color: #fff; padding: 20px; width: 300px; }
+    h2 { color: #0f0; text-align: center; }
+    .grid { display: grid; gap: 8px; }
+    button { 
+      padding: 10px; background: #1a1a1a; color: #0f0; 
+      border: 1px solid #333; cursor: pointer; text-align: left;
+    }
+    button:hover { background: #0f0; color: #000; }
+
+    #container {
+  max-height: 400px; /* Limita a altura */
+  overflow-y: auto;  /* Adiciona scroll se necessário */
+  padding-right: 5px;
+}
+
+/* Deixa o scroll mais fino e moderno */
+#container::-webkit-scrollbar {
+  width: 5px;
+}
+#container::-webkit-scrollbar-thumb {
+  background: #0f0;
+  border-radius: 10px;
+}
+  </style>
+</head>
+<body>
+  <h2>💀 XSS Manager</h2>
+  <div id="container" class="grid"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
