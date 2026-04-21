@@ -7,7 +7,7 @@
 ### 🛠️ Terminal Shell
 - **Project:** `Chrome Extension for Automated Pentesting`
 - **Focus:** `WAF Bypass / XSS Injection / Security Research`
-- **Payloads:** `+500 advanced strings integrated`
+- **Payloads:** `+250 advanced strings integrated`
 - **Access:** `Public / Open Source`
 
 ### 👾 Tech Stack
